@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: portf1;
+  src: url(./assets/file.woff2);
+}
+
+@font-face {
+  font-family: portf2;
+  src: url(./assets/file1.woff2);
+}
+
+@font-face {
+  font-family: portf3;
+  src: url(./assets/file2.woff2);
+}
+
+@font-face {
+  font-family: portf4;
+  src: url(./assets/file3.woff2);
+}
+
+@font-face {
+  font-family: portf5;
+  src: url(./assets/file4.woff2);
+}
+
+@font-face {
+  font-family: portf;
+  src: url(./assets/madefor-text.var.original.woff2);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+
+#page1-in{
+  position: relative;
+  perspective: 1000px;
+}
+
+#section2{
+  position: relative;
+  perspective: 2000px;
+}
+
+#tiltDiv{
+  width: fit-content;
+}
+
+#rotateText{
+  transform-origin: 100% 70%;
+}
